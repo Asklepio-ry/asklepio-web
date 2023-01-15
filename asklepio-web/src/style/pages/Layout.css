@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer {
+  background-color: lavender;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-socials-item > a {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.footer-socials-item > a > svg {
+  display: block;
+  margin-right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}

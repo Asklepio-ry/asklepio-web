@@ -13,8 +13,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="board" element={<Board />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="hallitus" element={<Board />} />
+          <Route path="yhteystiedot" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
