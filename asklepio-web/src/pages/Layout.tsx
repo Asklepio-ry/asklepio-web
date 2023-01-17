@@ -5,7 +5,7 @@ export default function Layout() {
   return (
     <>
       <nav>
-        <div className="nav-columnc">
+        <div className="nav-column">
           <h2 className="nav-column-header">Viralliset</h2>
           <ul className="nav-column-list">
             <li className="nav-column-list-item">
