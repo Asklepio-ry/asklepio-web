@@ -9,11 +9,11 @@ export default function Home() {
         ry
       </h2>
       <p>
-        Killan tehtävä on edistaa ja tukea Turun yliopiston lääketieteellisen
+        Killan tehtävä on edistää ja tukea Turun yliopiston lääketieteellisen
         tekniikan ja terveysteknologian DI-opiskelijoiden tieteellistä ja
         ammatillista kehitystä, vaalia opinto- ja ammattikysymyksiin liittyviä
         yleisiä ja yhteisiä etuja, ja viihtyvyyttä sekä edistää jäsenten
-        mielekkäitä vapaa-ajan viettomahdollisuuksia.
+        mielekkäitä vapaa-ajan vietto mahdollisuuksia.
         <br />
         <br />
         Kilta on perustettu 11.11.2022.
