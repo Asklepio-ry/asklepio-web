@@ -5,6 +5,7 @@ footer {
   align-items: center;
   flex-shrink: 0;
   padding-top: 2rem;
+  margin-top: 1rem;
 }
 
 footer > ul {
