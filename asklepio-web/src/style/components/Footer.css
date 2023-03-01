@@ -1,0 +1,36 @@
+footer {
+  background-color: lavender;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 2rem;
+}
+
+footer > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+footer > ul a {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+footer > ul li svg {
+  display: block;
+  margin-right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+footer > img {
+  max-height: 10rem;
+}
