@@ -1,12 +1,12 @@
 import "../style/components/Footer.css";
-import asklepio from "../assets/images/logos/asklepio_logo.png";
+import logo from "../assets/images/logos/asklepio_logo_white_text.png";
 import { ReactComponent as Instagram } from "../assets/icons/instagram.svg";
 import { ReactComponent as Mail } from "../assets/icons/mail.svg";
 
 export const Footer = () => {
   return (
     <footer>
-      <img src={asklepio} alt="Logo of Asklepio ry" />
+      <img src={logo} alt="Logo of Asklepio ry" />
       <p>Vesilinnantie 5, 20014 Turun yliopisto</p>
       <ul>
         <li>
@@ -26,7 +26,7 @@ export const Footer = () => {
           </a>
         </li>
       </ul>
-      <p>© 2023 Asklepio ry</p>
+      <p>Asklepio ry © {new Date().getFullYear()}</p>
     </footer>
   );
 };

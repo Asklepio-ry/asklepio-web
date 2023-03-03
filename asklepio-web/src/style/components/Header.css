@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #9d7ad2;
+}
+
+header > .header-banner a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+header > .header-banner img {
+  max-height: 9vh;
+  margin: 0.5rem;
+}
+
+header > .header-banner span {
+  text-decoration: none;
+  font-size: 4vh;
+}

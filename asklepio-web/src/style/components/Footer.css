@@ -1,14 +1,15 @@
 footer {
-  background-color: lavender;
+  background-color: #9d7ad2;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
   padding-top: 2rem;
   margin-top: 1rem;
+  color: white;
 }
 
-footer > ul {
+footer ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -17,7 +18,7 @@ footer > ul {
   padding: 0;
 }
 
-footer > ul a {
+footer a {
   display: flex;
   align-items: center;
   padding: 1rem;
@@ -25,13 +26,13 @@ footer > ul a {
   text-decoration: inherit;
 }
 
-footer > ul li svg {
+footer svg {
   display: block;
   margin-right: 0.5rem;
   width: 2rem;
   height: 2rem;
 }
 
-footer > img {
-  max-height: 10rem;
+footer img {
+  max-height: 15vh;
 }
