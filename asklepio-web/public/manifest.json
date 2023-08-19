@@ -3,7 +3,7 @@
   "name": "Asklepio",
   "icons": [
     {
-      "src": "asklepio_logo.png",
+      "src": "asklepio_logo_white_notext.png",
       "type": "image/png",
       "sizes": "512x512"
     }

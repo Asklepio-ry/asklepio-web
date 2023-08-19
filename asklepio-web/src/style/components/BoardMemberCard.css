@@ -1,0 +1,29 @@
+.board-member-card {
+  display: flex;
+  position: relative;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+  flex-direction: column;
+  text-align: left;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin: 1em;
+  width: 280px !important;
+}
+
+.board-member-name {
+  font-weight: bold;
+}
+
+.board-member-title {
+  margin-bottom: 1em;
+}
+
+svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: text-bottom;
+  margin-right: 0.5em;
+}
