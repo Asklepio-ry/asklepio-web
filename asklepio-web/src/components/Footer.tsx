@@ -12,10 +12,10 @@ export const Footer = () => {
         <li>
           <a href="mailto:asklepio@utu.fi" target="_blank" rel="noreferrer">
             <Mail />
-            asklepio[ät]utu.fi
+            asklepio@utu.fi
           </a>
         </li>
-        <li className="footer-socials-item">
+        <li>
           <a
             href="https://www.instagram.com/asklepio.ry/"
             target="_blank"

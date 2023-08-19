@@ -1,32 +1,76 @@
+import { BoardMemberCard } from "../components/BoardMemberCard";
+import "../style/pages/Board.css";
+
 export default function Board() {
   return (
     <>
       <p>
-        Koko hallituksen tavoittaa sähköpostitse{" "}
-        <a href="mailto:asklepio@utu.fi">asklepio[ät]utu.fi</a>
-        <br />
-        <br />
-        Henkilökohtaiset osoitteet tunnus[ät]utu.fi
+        Koko hallituksen tavoittaa sähköpostitse osoitteesta{" "}
+        <a href="mailto:asklepio@utu.fi">asklepio@utu.fi</a>
       </p>
+      <br />
+      <p>Henkilökohtaiset sähköpostiosoitteet tunnus@utu.fi</p>
       <h3>Hallitus 2023</h3>
-      <h4>Puheenjohtaja</h4>
-      <p>Jani Norrby</p>
-      <h4>Varapuheenjohtaja</h4>
-      <p>Roosa Hietalahti</p>
-      <h4>Sihteeri</h4>
-      <p>Inka Mustajoki</p>
-      <h4>Taloudenhoitaja</h4>
-      <p>Maria Säilä</p>
-      <h4>Tapahtumavastaava</h4>
-      <p>Noora Räkköläinen</p>
-      <h4>Kiltahuonevastaava</h4>
-      <p>Anni Halkilahti</p>
-      <h4>Fuksi- ja tuutorivastaava</h4>
-      <p>Tessa Salmia</p>
-      <h4>Koulutuspoliittinen vastaava</h4>
-      <p>Saara Mäkelä</p>
-      <h4>Ulkoasianvastaava</h4>
-      <p>Lauri Suominen</p>
+      <section className="board-member-list">
+        <div className="card-column">
+          <BoardMemberCard
+            name="Jani Norrby"
+            title="Puheenjohtaja, viestintävastaava"
+            email="jtnorr"
+            telegram="jani_norppa"
+          />
+          <BoardMemberCard
+            name="Roosa Hietalahti"
+            title="Varapuheenjohtaja"
+            email="rmmhie"
+            telegram="ursulamursula"
+          />
+          <BoardMemberCard
+            name="Inka Mustajoki"
+            title="Sihteeri"
+            email="immust"
+            telegram="inkamustajoki"
+          />
+          <BoardMemberCard
+            name="Maria Säilä"
+            title="Taloudenhoitaja"
+            email="masail"
+            telegram="mariasaila"
+          />
+          <BoardMemberCard
+            name="Noora Räkköläinen"
+            title="Tapahtumavastaava"
+            email="nkrakk"
+            telegram="noorakkolainen"
+          />
+        </div>
+        <div className="card-column">
+          <BoardMemberCard
+            name="Anni Halkilahti"
+            title="Kiltahuonevastaava"
+            email="aahalk"
+            telegram="anni_halkilahti"
+          />
+          <BoardMemberCard
+            name="Tessa Salmia"
+            title="Fuksi- ja tuutorivastaava"
+            email="teemms"
+            telegram="padawanito"
+          />
+          <BoardMemberCard
+            name="Saara Mäkelä"
+            title="Koulutuspoliittinen vastaava"
+            email="sahanm"
+            telegram="sarammbo"
+          />
+          <BoardMemberCard
+            name="Lauri Suominen"
+            title="Ulkoasianvastaava"
+            email="losuom"
+            telegram="suominenlauri"
+          />
+        </div>
+      </section>
     </>
   );
 }

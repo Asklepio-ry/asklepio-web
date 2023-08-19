@@ -14,3 +14,11 @@ main > p {
 main > h1 {
   color: #9d7ad2;
 }
+
+a {
+  text-decoration: none;
+}
+
+main > img {
+  max-width: 100%;
+}
