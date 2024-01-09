@@ -6,68 +6,68 @@ export default function Board() {
     <>
       <p>
         Koko hallituksen tavoittaa sähköpostitse osoitteesta{" "}
-        <a href="mailto:asklepio@utu.fi">asklepio@utu.fi</a>
+        <a href="mailto:hallitus@asklepio.fi">hallitus@asklepio.fi</a>
       </p>
       <br />
-      <p>Henkilökohtaiset sähköpostiosoitteet tunnus@utu.fi</p>
+      <p>Henkilökohtaiset sähköpostiosoitteet etunimi.sukunimi@asklepio.fi</p>
       <h3>Hallitus 2024</h3>
       <section className="board-member-list">
         <div className="card-column">
           <BoardMemberCard
-            name="Jani Norrby"
-            title="Puheenjohtaja"
-            email="jtnorr"
-            telegram="jani_norppa"
-          />
-          <BoardMemberCard
-            name="Roosa Hietalahti"
-            title="Varapuheenjohtaja"
-            email="rmmhie"
-            telegram="ursulamursula"
-          />
-          <BoardMemberCard
-            name="Inka Mustajoki"
-            title="Sihteeri"
-            email="immust"
-            telegram="inkamustajoki"
-          />
-          <BoardMemberCard
             name="Maria Säilä"
-            title="Taloudenhoitaja"
-            email="masail"
+            title="Puheenjohtaja, kiltahuonevastaava"
+            email="maria.saila@asklepio.fi"
             telegram="mariasaila"
           />
           <BoardMemberCard
-            name="Noora Räkköläinen"
+            name="Charlotta Huima"
+            title="Varapuheenjohtaja, viestintävastaava"
+            email="charlotta.huima@asklepio.fi"
+            // telegram="charlotta huima"
+          />
+          <BoardMemberCard
+            name="Eeli Hinkka"
+            title="Sihteeri"
+            email="eeli.hinkka@asklepio.fi"
+            telegram="eelihinkka"
+          />
+          <BoardMemberCard
+            name="Matilda Laurila"
+            title="Taloudenhoitaja"
+            email="matilda.laurila@asklepio.fi"
+            telegram="matskuuuw"
+          />
+          <BoardMemberCard
+            name="Silja Kuusirati"
             title="Tapahtumavastaava"
-            email="nkrakk"
-            telegram="noorakkolainen"
+            email="silja.kuusirati@asklepio.fi"
+            telegram="siljakuusirati"
           />
         </div>
         <div className="card-column">
           <BoardMemberCard
-            name="Anni Halkilahti"
-            title="Kiltahuonevastaava"
-            email="aahalk"
-            telegram="anni_halkilahti"
+            name="Sini Lähde"
+            title="Somevastaava"
+            email="sini.lahde@asklepio.fi"
+            telegram="sinilahde"
           />
           <BoardMemberCard
             name="Tessa Salmia"
             title="Fuksi- ja tuutorivastaava"
-            email="teemms"
+            email="tessa.salmia@asklepio.fi"
             telegram="padawanito"
           />
           <BoardMemberCard
             name="Saara Mäkelä"
             title="Koulutuspoliittinen vastaava"
-            email="sahanm"
+            email="saara.makela@asklepio.fi"
             telegram="sarammbo"
           />
           <BoardMemberCard
-            name="Lauri Suominen"
+            name="Tuukka Lehtomäki"
             title="Ulkoasianvastaava"
-            email="losuom"
-            telegram="suominenlauri"
+            email="tuukka.lehtomaki@asklepio.fi"
+            telegram="lehtomakituukka"
           />
         </div>
       </section>
