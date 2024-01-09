@@ -15,7 +15,7 @@ export default function Board() {
         <div className="card-column">
           <BoardMemberCard
             name="Jani Norrby"
-            title="Puheenjohtaja, viestintävastaava"
+            title="Puheenjohtaja"
             email="jtnorr"
             telegram="jani_norppa"
           />
