@@ -10,7 +10,7 @@ export default function Board() {
       </p>
       <br />
       <p>Henkilökohtaiset sähköpostiosoitteet tunnus@utu.fi</p>
-      <h3>Hallitus 2023</h3>
+      <h3>Hallitus 2024</h3>
       <section className="board-member-list">
         <div className="card-column">
           <BoardMemberCard
