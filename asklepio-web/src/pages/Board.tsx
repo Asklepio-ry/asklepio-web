@@ -23,7 +23,7 @@ export default function Board() {
             name="Charlotta Huima"
             title="Varapuheenjohtaja, viestintävastaava"
             email="charlotta.huima@asklepio.fi"
-            // telegram="charlotta huima"
+            telegram=""
           />
           <BoardMemberCard
             name="Eeli Hinkka"
