@@ -8,11 +8,17 @@ export default function Board() {
         Koko hallituksen tavoittaa sähköpostitse osoitteesta{" "}
         <a href="mailto:hallitus@asklepio.fi">hallitus@asklepio.fi</a>
       </p>
+
       <br />
+
       <p>Henkilökohtaiset sähköpostiosoitteet etunimi.sukunimi@asklepio.fi</p>
+
       <h3>Hallitus 2024</h3>
+
       <section className="board-member-list">
+
         <div className="card-column">
+
           <BoardMemberCard
             name="Maria Säilä"
             title="Puheenjohtaja, kiltahuonevastaava"
@@ -47,7 +53,7 @@ export default function Board() {
         <div className="card-column">
           <BoardMemberCard
             name="Sini Lähde"
-            title="Somevastaava"
+            title="Somevastaava, webmaster"
             email="sini.lahde@asklepio.fi"
             telegram="sinilahde"
           />
@@ -69,8 +75,11 @@ export default function Board() {
             email="tuukka.lehtomaki@asklepio.fi"
             telegram="lehtomakituukka"
           />
+
         </div>
+
       </section>
+      
     </>
   );
 }
