@@ -6,6 +6,7 @@ export default function Home() {
       <p>
         Asklepio ry on 11.11.2022 perustettu turkulainen teekkarikilta.
         <br />
+        <br />
         Kilta edistää ja tukee Turun yliopiston lääketieteellisen tekniikan ja terveysteknologian opiskelijoiden tieteellistä ja ammatillista kehitystä, 
         hallitsee opinto- ja ammattikysymyksiin liittyviä yleisiä etuja  
         sekä edistää jäsenten mielekkäitä mahdollisuuksia vapaa-ajan viettoon.
