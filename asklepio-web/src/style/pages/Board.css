@@ -1,3 +1,7 @@
+a {
+  color: black;
+}
+
 .card-column {
   display: flex;
   flex-direction: column;
