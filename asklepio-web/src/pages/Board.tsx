@@ -27,7 +27,7 @@ export default function Board() {
           />
           <BoardMemberCard
             name="Charlotta Huima"
-            title="Varapuheenjohtaja, viestintävastaava"
+            title="Varapuheenjohtaja"
             email="charlotta.huima@asklepio.fi"
             telegram=""
           />
@@ -53,7 +53,7 @@ export default function Board() {
         <div className="card-column">
           <BoardMemberCard
             name="Sini Lähde"
-            title="Somevastaava, webmaster"
+            title="Some- ja viestintävastaava"
             email="sini.lahde@asklepio.fi"
             telegram="sinilahde"
           />
