@@ -34,7 +34,9 @@ header.show {
 
 .header-container-text > h1 {
   display: flex;
-  font-size: 3.75rem;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-weight: 100;
 }
 
 .header-container-text > a > img {

@@ -14,7 +14,7 @@ export const Header = () => {
 
         <div className="header-container-text">
           <Link to="/" onClick={() => {if (show) {setShow(!show);}}}><img src={logo} alt="Logo of Asklepio ry" /></Link>
-          <h1>Asklepio</h1>
+          <h1>Asklepio ry</h1>
         </div>
 
         <input type="checkbox" className="menu-btn" onChange={() => setShow(!show)} checked={show} ref={menuBtn}/>
