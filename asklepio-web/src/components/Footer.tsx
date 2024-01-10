@@ -6,27 +6,23 @@ import { ReactComponent as Mail } from "../assets/icons/mail.svg";
 export const Footer = () => {
   return (
     <footer>
+      
       <img src={logo} alt="Logo of Asklepio ry" />
+
       <p>Vesilinnantie 5, 20014 Turun yliopisto</p>
+
       <ul>
         <li>
-          <a href="mailto:asklepio@utu.fi" target="_blank" rel="noreferrer">
-            <Mail />
-            asklepio@utu.fi
-          </a>
+          <a href="mailto:hallitus@asklepio.fi" target="_blank" rel="noreferrer"><Mail />hallitus@asklepio.fi</a>
         </li>
+
         <li>
-          <a
-            href="https://www.instagram.com/asklepio.ry/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Instagram />
-            Asklepio.ry
-          </a>
+          <a href="https://www.instagram.com/asklepio.ry/" target="_blank" rel="noreferrer"><Instagram />Asklepio.ry</a>
         </li>
       </ul>
+
       <p>Asklepio ry © {new Date().getFullYear()}</p>
+
     </footer>
   );
 };
