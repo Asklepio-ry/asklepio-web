@@ -9,8 +9,6 @@ export default function Board() {
         <a href="mailto:hallitus@asklepio.fi">hallitus@asklepio.fi</a>
       </p>
 
-      <br />
-
       <p>Henkilökohtaiset sähköpostiosoitteet etunimi.sukunimi@asklepio.fi</p>
 
       <h3>Hallitus 2024</h3>
