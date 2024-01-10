@@ -16,14 +16,8 @@ export const BoardMemberCard = (props: IBoardMemberCardProps) => {
     <div className="board-member-card">
       <span className="board-member-name">{name}</span>
       <span className="board-member-title">{title}</span>
-      <span className="board-member-email">
-        <MailBlack />
-        {email}
-      </span>
-      <span className="board-member-telegram">
-        <Telegram />
-        {telegram}
-      </span>
+      <span className="board-member-email"><MailBlack />{email}</span>
+      <span className="board-member-telegram"><Telegram />{telegram}</span>
     </div>
   );
 };
