@@ -1,5 +1,5 @@
 import "../style/components/Footer.css";
-import logo from "../assets/images/logos/asklepio_logo_white_text.png";
+// import logo from "../assets/images/logos/asklepio_logo_white_text.png";
 import { ReactComponent as Instagram } from "../assets/icons/instagram.svg";
 import { ReactComponent as Mail } from "../assets/icons/mail.svg";
 
