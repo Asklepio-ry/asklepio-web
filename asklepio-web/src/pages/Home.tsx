@@ -17,7 +17,7 @@ export default function Home() {
         sekä edistää jäsenten mielekkäitä mahdollisuuksia vapaa-ajan viettoon.
       </p> */}
 
-      <span>Sivuja kehitetään...</span>
+      <span>Sivuja kehitetään para-aikaa...</span>
     </>
   );
 }
