@@ -42,7 +42,7 @@ header.show {
 .header-container-text > a > img {
   display: block;
   width: 100%;
-  max-width: 5rem;
+  max-width: 4rem;
   height: auto;
   margin-right: 2rem;
   user-select: none;
