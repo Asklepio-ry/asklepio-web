@@ -7,7 +7,9 @@ export const Footer = () => {
   return (
     <footer>
       
-      <img src={logo} alt="Logo of Asklepio ry" />
+      {/* <img src={logo} alt="Logo of Asklepio ry" /> */}
+
+      <h1>Yhteystiedot</h1>
 
       <p>Vesilinnantie 5, 20014 Turun yliopisto</p>
 
