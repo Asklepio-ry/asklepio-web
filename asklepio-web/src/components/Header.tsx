@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logos/asklepio_logo_no_text_lavender.svg";
+import logo from "../assets/images/logos/asklepio_logo_white_notext.png";
 import "../style/components/Header.css";
 
 export const Header = () => {
