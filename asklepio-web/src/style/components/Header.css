@@ -145,7 +145,7 @@ header > nav > ul {
 
 header > nav > ul > .nav-link {
   text-decoration: none;
-  color: inherit;
+  /* color: inherit; */
   margin-top: 2rem;
   font-size: clamp(1.5rem, 6vw, 2.5rem);
   text-transform: uppercase;
