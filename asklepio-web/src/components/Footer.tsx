@@ -24,7 +24,7 @@ export const Footer = () => {
         </li>
 
         <li>
-          <a href="https://www.instagram.com/asklepio.ry/" target="_blank" rel="noreferrer"><Telegram />Asko tiedottaa</a>
+          <a href="" target="_blank" rel="noreferrer"><Telegram />Asko tiedottaa</a>
         </li>
       </ul>
 
