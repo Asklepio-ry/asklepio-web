@@ -15,7 +15,7 @@ export const Footer = () => {
       <p>
         LäTäKkö, Agora
         <br />
-        Vesilinnantie 5
+        Vesilinnantie 5,
         <br />
         20014 Turun yliopisto
       </p>
