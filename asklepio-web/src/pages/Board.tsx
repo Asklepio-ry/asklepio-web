@@ -4,14 +4,12 @@ import "../style/pages/Board.css";
 export default function Board() {
   return (
     <>
+      <h3>Hallitus 2024</h3>
+
       <p>
         Koko hallituksen tavoittaa sähköpostitse osoitteesta{" "}
         <a href="mailto:hallitus@asklepio.fi">hallitus@asklepio.fi</a>
       </p>
-
-      <p>Henkilökohtaiset sähköpostiosoitteet etunimi.sukunimi@asklepio.fi</p>
-
-      <h3>Hallitus 2024</h3>
 
       <section className="board-member-list">
 
