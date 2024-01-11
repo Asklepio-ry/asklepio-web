@@ -79,7 +79,7 @@ header.show {
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: white;
+  background: #9d7ad2;
 }
 
 .hamburger-lines .btn-line:nth-child(1) {
