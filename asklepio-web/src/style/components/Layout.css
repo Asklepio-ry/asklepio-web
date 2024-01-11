@@ -4,7 +4,7 @@ main {
   flex: none;
   flex-direction: column;
   text-align: center;
-  padding: 35px;
+  padding-bottom: 2rem;
 }
 
 /* main > p {
