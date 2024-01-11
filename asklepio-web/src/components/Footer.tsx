@@ -2,7 +2,7 @@ import "../style/components/Footer.css";
 // import logo from "../assets/images/logos/asklepio_logo_white_text.png";
 import { ReactComponent as Instagram } from "../assets/icons/instagram.svg";
 import { ReactComponent as Mail } from "../assets/icons/mail.svg";
-import { ReactComponent as Telegram } from "../assets/icons/telegram.png";
+// import { ReactComponent as Telegram } from "../assets/icons/telegram.png";
 
 export const Footer = () => {
   return (
@@ -24,10 +24,10 @@ export const Footer = () => {
         <li>
           <a href="https://www.instagram.com/asklepio.ry/" target="_blank" rel="noreferrer"><Instagram />Asklepio.ry</a>
         </li>
-
+{/* 
         <li>
           <a href="" target="_blank" rel="noreferrer"><Telegram />Asko tiedottaa</a>
-        </li>
+        </li> */}
       </ul>
 
       <p>Asklepio ry © {new Date().getFullYear()}</p>
