@@ -12,6 +12,10 @@
   width: 280px !important;
 }
 
+img {
+  max-width: 3rem;
+}
+
 .board-member-name {
   font-weight: bold;
 }

@@ -14,6 +14,7 @@ export const BoardMemberCard = (props: IBoardMemberCardProps) => {
 
   return (
     <div className="board-member-card">
+      <img src="../assets/images/other/blank-profile-picture-973461_1280.png"></img>
       <span className="board-member-name">{name}</span>
       <span className="board-member-title">{title}</span>
       <span className="board-member-email"><MailBlack />{email}</span>
