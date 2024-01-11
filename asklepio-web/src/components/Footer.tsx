@@ -12,9 +12,13 @@ export const Footer = () => {
 
       <h1>Yhteystiedot</h1>
 
-      <p>Agora, LäTäKkö</p>
-      <p>Vesilinnantie 5</p>
-      <p>20014 Turun yliopisto</p>
+      <p>
+        LäTäKkö, Agora
+        <br />
+        Vesilinnantie 5
+        <br />
+        20014 Turun yliopisto
+      </p>
 
       <ul>
         <li>
