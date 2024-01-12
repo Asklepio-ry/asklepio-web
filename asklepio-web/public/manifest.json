@@ -1,15 +1,15 @@
-{
-  "short_name": "Asklepio",
-  "name": "Asklepio",
-  "icons": [
-    {
-      "src": "asklepio_logo_white_notext.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#EFF1F3"
-}
+// {
+//   "short_name": "Asklepio",
+//   "name": "Asklepio",
+//   "icons": [
+//     {
+//       "src": "asklepio_logo_white_notext.png",
+//       "type": "image/png",
+//       "sizes": "512x512"
+//     }
+//   ],
+//   "start_url": ".",
+//   "display": "standalone",
+//   "theme_color": "#000000",
+//   "background_color": "#EFF1F3"
+// }
