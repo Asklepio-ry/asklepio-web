@@ -1,10 +1,10 @@
 header {
-  color: white;
   position: sticky;
   top: 0;
   display: flex;
   flex-flow: column nowrap;
   z-index: 5;
+  background: linear-gradient(rgba(255, 255, 255, 0.63), rgba(255, 255, 255, 0.62));
 }
 
 header.show {
@@ -18,7 +18,7 @@ header.show {
   align-items: center;
   /* justify-content: center; */
   position: relative;
-  padding: 2rem 2rem 0rem 2rem;
+  padding: 1rem 2rem;
 }
 
 .header-container-text {
