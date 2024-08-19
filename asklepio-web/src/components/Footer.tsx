@@ -7,34 +7,35 @@ import { ReactComponent as Mail } from "../assets/icons/mail.svg";
 export const Footer = () => {
   return (
     <footer>
-      
-      {/* <img src={logo} alt="Logo of Asklepio ry" /> */}
+    <section id="yhteystiedot">
 
-      <h1>Yhteystiedot</h1>
+        <h3> Yhteystiedot </h3>
 
-      <p>
-        LäTäKkö, Agora
-        <br />
-        Vesilinnantie 5,
-        <br />
-        20014 Turun yliopisto
-      </p>
+        <div class="kaikki">
 
-      <ul>
-        <li>
-          <a href="mailto:hallitus@asklepio.fi" target="_blank" rel="noreferrer"><Mail />hallitus@asklepio.fi</a>
-        </li>
+            <div class="tiedot">
+                <div class="osio">
+                    <h4><a href="https://maps.app.goo.gl/w9LfezC5QyhCmf8dA" target="_blank" rel="noreferrer"><img src="img\icons\locator-1093167_1280.png" alt="locate" class="icons"></a> Osoite </h4>
+                    <p> LäTäKkö, Agora</p>
+                    <p> Vesilinnantie 5,</p>
+                    <p> 20014 Turun yliopisto </p>
+                </div>
 
-        <li>
-          <a href="https://www.instagram.com/asklepio.ry/" target="_blank" rel="noreferrer"><Instagram />Asklepio.ry</a>
-        </li>
-{/* 
-        <li>
-          <a href="" target="_blank" rel="noreferrer"><Telegram />Asko tiedottaa</a>
-        </li> */}
-      </ul>
+                <div class="osio">
+                    <h4><a href="mailto:hallitus@asklepio.fi"> <img src="img\icons\gmail-4561841_1280.png" alt="gmail" class="icons"></a> Sähköposti </h4>
+                    <p> hallitus@asklepio.fi </p>
+                </div>
 
-      <p>Asklepio ry © {new Date().getFullYear()}</p>
+                <div class="osio">
+                    <h4><a href="https://www.instagram.com/asklepio.ry/" target="_blank" rel="noreferrer"> <img src="img\icons\instagram-1675670_1280.png" alt="insta" class="icons"></a> Instagram </h4>
+                    <p> Asklepio.ry </p>
+                </div>
+            </div>
+
+        </div>
+
+        <p>Asklepio ry © {new Date().getFullYear()}</p>
+      </section>
 
     </footer>
   );

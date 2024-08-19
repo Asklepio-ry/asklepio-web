@@ -8,33 +8,30 @@ export const Header = () => {
   const menuBtn = useRef(null);
 
   return (
-    <header className={show ? "show" : ""}>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#alku">
+                    <img src="img\asklepio_logo_no_text.png" alt="logo">
+                </a>
+            </div>
 
-      <div className="header-container">
+            <div class="nav">
+                <ul class="nav-links">
+                    <li><a href="#asklepio"> Asklepio </a></li>
+                    <li><a href="#hallitus"> Hallitus </a></li>
+                    <li><a href="#tapahtumat"> Tapahtumat </a></li>
+                    <li><a href="#palaute"> Palaute </a></li>
+                    <li><a href="#yhteystiedot"> Yhteystiedot </a></li>
+                </ul>
+            </div>
 
-        <div className="header-container-text">
-          <Link to="/" onClick={() => {if (show) {setShow(!show);}}}><img src={logo} alt="Logo of Asklepio ry" /></Link>
-          {/* <h1>Asklepio ry</h1> */}
-        </div>
-
-        <input type="checkbox" className="menu-btn" onChange={() => setShow(!show)} checked={show} ref={menuBtn}/>
-
-        <div className="hamburger-lines">
-          <span className="btn-line"></span>
-          <span className="btn-line"></span>
-          <span className="btn-line"></span>
-        </div>
-
-      </div>
-
-      <nav>
-        <ul>
-          <Link className="nav-link" to="/" onClick={() => setShow(!show)}><li>Etusivu</li></Link>
-          <Link className="nav-link" to="/hallitus" onClick={() => setShow(!show)}><li>Hallitus</li></Link>
-          <Link className="nav-link" to="/uusiopiskelija" onClick={() => setShow(!show)}><li>Uusille opiskelijoille</li></Link>
-        </ul>
-      </nav>
-
+            <div class="burgeri">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
     </header>
   );
 };

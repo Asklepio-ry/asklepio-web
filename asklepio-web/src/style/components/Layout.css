@@ -1,18 +1,18 @@
-main {
+/* main {
   align-items: center;
   display: flex;
   flex: none;
   flex-direction: column;
   text-align: center;
   padding-bottom: 2rem;
-}
+} */
 
 /* main > p {
   margin-left: 1rem;
   margin-right: 1rem;
 } */
 
-main > h1 {
+/* main > h1 {
   color: #9d7ad2;
   margin: 0;
   text-transform: uppercase;
@@ -24,4 +24,4 @@ a {
 
 main > img {
   max-width: 100%;
-}
+} */

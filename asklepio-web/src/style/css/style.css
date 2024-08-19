@@ -1,0 +1,371 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #cbbae0;
+}
+
+section {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h3 {
+    font-family: 'Assistant', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.icons {
+    height: 1rem;
+}
+
+.icons:hover {
+    opacity: 50%;
+}
+
+/* HEADER ***********************************************/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-links li {
+    margin-right: 10px;
+    list-style: none;
+}
+
+.nav-links a {
+    font-family: 'Assistant', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 0;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links li:hover {
+    opacity: 0.5;
+}
+
+.logo {
+    width: 150px;
+    margin: 10px;
+}
+
+.logo img {
+    width: 35%;
+}
+
+.logo:hover {
+    opacity: 0.5;
+}
+
+.burgeri {
+    display: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.burgeri div{
+    width: 25px;
+    height: 2px;
+    background-color: #000000;
+    margin: 5px;
+}
+
+/* ALKU *************************************************/
+
+#alku {
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/IMG_1772.JPEG") fixed center;
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#alku h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #9d7ad2;
+    text-transform: uppercase;
+}
+
+#alku h2 {
+    height: 50px;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    color: #9d7ad2;
+}
+
+/* ASKLEPIO **********************************************/
+
+#asklepio {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.asko-sisalto {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 80px;
+}
+
+.asko-sisalto p {
+    margin: 0px 30px;
+}
+
+#asklepio img {
+    max-width: 130px;
+    margin: 0px 30px;
+}
+
+/* HALLITUS ********************************************/
+
+#hallitus {
+    background: white;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hallitus p a {
+    color: #9d7ad2
+}
+
+#hallitus h4 {
+    margin-bottom: 0;
+    font-family: 'Assistant', sans-serif;
+    text-transform: uppercase;
+}
+
+#hallitus h5 {
+    margin: 0px 0px 10px 0px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+}
+
+.jasenet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jasenet ul {
+    padding: 0px 80px;
+}
+
+#hallitus .jasenet ul li {
+    float: left;
+    padding: 20px;
+    list-style: none;
+    min-width: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#hallitus .jasenet ul li p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hallitus .icons {
+    margin-right: 5px;
+}
+
+#hallitus .jasenet img {
+    border-radius: 10em;
+}
+
+/* TAPAHTUMAT ************************************************/
+
+#tapahtumat {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+#tapahtumat p {
+    margin-bottom: 1rem;
+}
+
+#tapahtumat img {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+iframe #calendarTitle {
+    display: flex;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* PALAUTE ************************************************/
+
+#palaute {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+
+#palaute p {
+    margin-bottom: 1rem;
+}
+
+#palaute img {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* YHTEYSTIEDOT ********************************************/
+
+footer {
+    padding: 0px 80px;
+    background: url(../img/logo-tasta.png) no-repeat center right;
+}
+
+#yhteystiedot {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+}
+
+#yhteystiedot .kaikki {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#yhteystiedot .tiedot {
+    display: flex;
+    flex-direction: column;
+}
+
+#yhteystiedot .osio {
+    padding: 10px;
+    text-align: left;
+}
+
+#yhteystiedot h4, p {
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+#yhteystiedot h4 {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-links {
+        width: 95%;
+    }
+
+    footer {
+        background: linear-gradient(rgb(203 186 224 / 50%), rgb(203 186 224 / 50%)), url(../img/logo-tasta.png) no-repeat center right;;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .jasenet ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 619px) {
+    #alku h3 {
+        line-height: 1.5;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0;
+        height: 100vh;
+        top: 8vh;
+        background-color: #cbbae0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 40%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li {
+        opacity: 1;
+    }
+
+    .burgeri {
+        display: block;
+    }
+
+    .jasenet ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 500px;
+    }
+
+    footer {
+        background: #cbbae0;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+
+
+
+
+
+
+
+
+
+

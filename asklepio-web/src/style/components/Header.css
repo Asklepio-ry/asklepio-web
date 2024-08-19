@@ -1,4 +1,4 @@
-header {
+/* header {
   position: sticky;
   top: 0;
   display: flex;
@@ -15,9 +15,9 @@ header.show {
 
 .header-container {
   display: flex;
-  align-items: center;
+  align-items: center; */
   /* justify-content: center; */
-  position: relative;
+  /* position: relative;
   padding: 1rem 2rem;
 }
 
@@ -144,9 +144,9 @@ header > nav > ul {
 }
 
 header > nav > ul > .nav-link {
-  text-decoration: none;
+  text-decoration: none; */
   /* color: inherit; */
-  margin-top: 2rem;
+  /* margin-top: 2rem;
   font-size: clamp(1.5rem, 6vw, 2.5rem);
   text-transform: uppercase;
 }
@@ -204,4 +204,4 @@ header > nav > ul > .nav-link:nth-child(1) {
     display: block;
     transform: translateY(0);
   }
-}
+} */
