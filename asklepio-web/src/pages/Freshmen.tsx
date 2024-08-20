@@ -5,13 +5,14 @@ export default function Freshmen() {
     <>
       <p>
         Uusien opiskelijoiden syksy käynnistyy orientaatioviikolla
-        21.8-25.8.2023. Orientaatioviikon aikana pääset tutustumaan
+        26.8-30.8.2024. Orientaatioviikon aikana pääset tutustumaan
         yliopisto-opiskeluun, kampusalueeseen, killan järjestämään
         vapaa-ajantoimintaan ja mikä tärkeintä: muihin opinnot aloittaviin
         fukseihin.
       </p>
+
       <img
-        src={orientaatioviikko}
+        src={orientaatioviikko24}
         alt="Schedule of freshmen orientation week"
       />
       <p>
